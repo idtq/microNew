@@ -1,0 +1,30 @@
+ 2003  ls
+ 2004  cd examples/
+ 2005  ls
+ 2006  cd microblog/
+ 2007  rvm use 2.0.0
+ 2008  ls
+ 2009  rm -r demo_app/
+ 2010  ls
+ 2011  rm -r -y demo_app/
+ 2012  man rm
+ 2013  pwd
+ 2014  rails new micro
+ 2015  ls
+ 2016  cd micro/
+ 2017  ls
+ 2018  gedit Gemfile&
+ 2019  bundle install --without production
+ 2020  bundle update
+ 2021  bundle install
+ 2022  git init
+ 2023  git add .
+ 2024  git commit -m "Initial commit"
+ 2025  git remote add origin https://github.com/idtq/microNew.git
+ 2026  git push -u origin master
+ 2027  rails generate scaffold User name:string email:string
+ 2028  bundle exec rake db:migrate
+ 2029  history 20 > micro.txt
+ 2030  gedit micro.txt &
+ 2031  history | grep rvm
+ 2032  history 30 > micro.txt
